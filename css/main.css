@@ -1,0 +1,40 @@
+body{
+    background: #4dff4d;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Girassol', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.oculto{
+    display: none;
+}
+ #final{
+    background: #4db8ff;
+    font-size: 50px;
+    margin: 40px 20px;
+    padding: 40px 20px;
+    border: 2px solid #000;
+    border-radius: 6px;
+
+ }
+
+ #reset{
+    background: #b3e0ff;
+    font-size: 30px;
+    margin: 30px 10px;
+    padding: 30px 10px;
+    border: 2px solid #146194;
+    border-radius: 6px;
+ }
+ #reset:hover {
+        background-color: #008CBA;
+        color: white;
+   }
+ 
